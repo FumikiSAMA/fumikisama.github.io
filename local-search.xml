@@ -4,6 +4,33 @@
   
   
   <entry>
+    <title>Unity与Android原生代码的交互方式</title>
+    <link href="/2023/03/10/Unity%E4%B8%8EAndroid%E5%8E%9F%E7%94%9F%E4%BB%A3%E7%A0%81%E7%9A%84%E4%BA%A4%E4%BA%92%E6%96%B9%E5%BC%8F/"/>
+    <url>/2023/03/10/Unity%E4%B8%8EAndroid%E5%8E%9F%E7%94%9F%E4%BB%A3%E7%A0%81%E7%9A%84%E4%BA%A4%E4%BA%92%E6%96%B9%E5%BC%8F/</url>
+    
+    <content type="html"><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>起因是前些天，因为公司的Unity项目需要接Android的原生SDK，也是我第一次接触Unity与Android原生代码交互的逻辑开发。在四处搜索，四处问人的磕磕绊绊之下，也算是完成了功能的开发。为了下次再遇到类似情况时可以得心应手地应对，所以考虑做一次逻辑复写，并且将这一次接入的核心逻辑记录下来，也是给自己做一个技术总结和沉淀。</p><h2 id="开发软件与版本"><a href="#开发软件与版本" class="headerlink" title="开发软件与版本"></a>开发软件与版本</h2><ul><li>Unity 2021.3.20f1</li><li>Android Studio 2022.1.1 Patch 2</li></ul><h2 id="开发"><a href="#开发" class="headerlink" title="开发"></a>开发</h2><h3 id="Unity的准备工作"><a href="#Unity的准备工作" class="headerlink" title="Unity的准备工作"></a>Unity的准备工作</h3><ol><li>在 <strong>Assets</strong> 根目录下（保险起见）找到或创建 <strong>Plugins</strong> 文件夹，然后在 <strong>Plugins</strong> 文件夹下找到或创建 <strong>Android</strong> 文件夹。<a href="1.png">1</a></li><li></li></ol>]]></content>
+    
+    
+    <categories>
+      
+      <category>开发技术</category>
+      
+      <category>Unity技术</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Unity</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>Hello World</title>
     <link href="/2023/03/08/hello-world/"/>
     <url>/2023/03/08/hello-world/</url>
